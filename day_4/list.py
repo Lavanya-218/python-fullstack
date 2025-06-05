@@ -1,0 +1,23 @@
+my=['hello','lavanya','from','cse']
+print(my)
+my.append("5b6")
+print(my)
+my.remove("from")
+print(my)
+my.pop()
+print(my)
+x=my.pop(2)
+print(x)
+print(my)
+my.append(['hai','bro','sis'])
+print(my)     # ['hello', 'lavanya', ['hai', 'bro', 'sis']]
+print(my[2][1])
+y=my[2].pop(1)
+print(y)
+print(my)
+n=input("Enter string:")
+m2=[]
+m2=list(n)
+print(m2)
+my.extend(m2)
+print(my)

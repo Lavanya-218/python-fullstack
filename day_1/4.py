@@ -1,0 +1,5 @@
+name=input("Enter your name:")
+age=int(input("Enter age:"))
+branch=input("Enter your branch:")
+percentage=float(input("Enter your percentage:"))
+print(f"Hai my name is {name} and I am {age} years old.I am studying {branch} with an aggregate {percentage}")
