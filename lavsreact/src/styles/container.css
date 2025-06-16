@@ -1,0 +1,15 @@
+ .container{
+    background-color:burlywood;
+    color:black;
+    text-align:center;
+    margin:0%;
+    padding-top: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+
+} 
+
+
